@@ -1,0 +1,187 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	background-color: ;
+	color: ;
+	font-family: 'Roboto', sans-serif;
+	font-size: ;
+	font-weight: ;
+	text-redering: optimizeLegibility;
+}
+
+
+.row {
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* -----------------------------*/
+/*
+/* Header
+/*
+/*------------------------------*/
+
+.landing-container {
+	margin: 0 auto 0 auto;
+	width: 100%;
+	max-width: 100%;
+	background-color: white;
+	border-bottom: 1px solid #F3F3F3;
+	font-size: 1em;
+}
+
+.navigation-container {
+	max-width: 1200px; 
+	width: 80%; 
+	margin: 0px auto; 
+}
+
+.logo {
+	height: 50px;
+	margin-top: 10px;
+}
+
+.navigation {
+	float: right;
+	margin-top: 20px;
+}
+
+.main-nav li {
+	display: inline-block;
+	list-style: none;
+	padding-left: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-nav li a {
+	color: gray;
+	font-family: 'Roboto:500', sans-serif;
+}
+
+.nav-item:hover #home{
+	color: #FB6965;
+	font-family: 'Roboto:500', sans-serif;
+}
+
+#portfolio {
+	color: #FB6965;
+	font-family: 'Roboto:500', sans-serif;
+}
+
+.nav-item:hover #about{
+	color: #FB6965;
+	font-family: 'Roboto:500', sans-serif;
+}
+
+.nav-item:hover #resume{
+	color: #FB6965;
+	font-family: 'Roboto:500', sans-serif;
+}
+
+.nav-item:hover #contact{
+	color: #FB6965;
+	font-family: 'Roboto:500', sans-serif;
+}
+
+
+
+/* -----------------------------*/
+/*
+/* Portfolio Projects
+/*
+/*------------------------------*/
+
+
+#js-filters-masonry-projects {
+	margin-top: 40px;
+}
+
+.cbp {
+	max-width: 1200px; 
+	width: 80%; 
+	margin: 0px auto; 
+	min-height: 1000px;
+}
+
+/* Filter Nav */
+.hashtag {
+	color: #FB6965;
+}
+
+.separator {
+	display: inline-block;
+	padding: 0px 20px;
+	color: #949494;
+}
+
+/* Cubes */
+
+.hover-message {
+	font-size: 2em;
+	color: #4A4A4A;
+}
+
+
+/* -----------------------------*/
+/*
+/* Footer
+/*
+/*------------------------------*/
+
+.footer-container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 30px auto 0px auto;
+	padding: 20px;
+	background-color: #f2f2f2;
+	overflow: auto;
+}
+
+.footer-container p {
+	text-align: center;
+	margin: auto;
+	font-size: 1.2em;
+	color: #3d3d3d;
+	padding-bottom: 10px;
+}
+
+.social {
+	list-style-type: none;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.social li {
+	font-size: 1.2em;
+	display: inline-block;
+	color: #3d3d3d;
+	padding-left: 30px;
+}
+
+.social i {
+	padding-right: 5px;
+}
+
+.fa {
+	color: #FB6965;
+}
+
+
+
+
+
+
+
+
+
