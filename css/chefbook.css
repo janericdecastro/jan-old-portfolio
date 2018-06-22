@@ -1,0 +1,40 @@
+.chefbook-image {
+	width: 100%;
+}
+
+.logocontainer {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 30px;
+}
+.oldcheflogo {
+	width: 60%;
+}
+
+.oldcheflogo img{
+	width: 70%;
+	margin-top: 50px;
+}
+
+.newcheflogo {
+	width: 30%;
+}
+
+.interactive-prototype {
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+}
+
+.prototype {
+	border: 1px solid;
+}
+
+.storyboard {
+	-webkit-box-shadow: -4px -1px 23px 4px rgba(209,209,209,1);
+-moz-box-shadow: -4px -1px 23px 4px rgba(209,209,209,1);
+box-shadow: -4px -1px 23px 4px rgba(209,209,209,1);
+	margin-bottom: 40px;
+}
+
+

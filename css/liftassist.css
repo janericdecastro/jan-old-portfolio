@@ -1,0 +1,10 @@
+.content-container {
+	width: 70%;
+	margin: auto;
+	margin-top: 100vh;
+	margin-bottom: 200px;
+}
+
+.landing-img {
+	background-image: url('../images/liftassist/final-prototype.png');
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jan Eric De Castro</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/100days.css">
+
+	<!-- Mapbox -->
+	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.45.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.45.0/mapbox-gl.css' rel='stylesheet' />
+    
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script type="text/javascript" src="js/100days.js"></script>
+
+</head>
+<body>
+
+	<div class="container">
+
+		<nav role="navigation">
+	          <div id="menuToggle">
+	            <input type="checkbox" />
+
+	            <span></span>
+	            <span></span>
+	            <span></span>
+
+
+	            <ul id="menu">
+	            	<a href="portfolio.html">
+						<li class="nav-ham-item" id="portfolio">portfolio</li>
+					</a>
+					<a href="">
+						<li class="nav-ham-item">visual</li>
+					</a>
+					<a href="100days.html">
+						<li class="nav-ham-item">100 days of design</li>
+					</a>
+					<a href="about.html">
+						<li class="nav-ham-item">about</li>
+					</a>
+					
+	            </ul>
+	          </div>
+	     </nav>
+
+		<header class="menu">
+			<a href="index.html"><img src="images/logo/logoJ.png"></a>
+		</header>
+
+
+		<div id="toggleLocation"> 
+			<h4>Location:</h4>
+			
+		</div>
+
+
+		<div id="toggleMenu"> 
+			<select id="view">
+			  <option value="San Diego">San Diego</option>
+			  <option value="San Francisco">San Francisco</option>
+			  <option value="Pleasanton">Pleasanton</option>
+			</select>
+			<button id="allToggle" class="toggleButton">All</button>
+			<button id="problemsToggle" class="toggleButton">Problems</button>
+			<button id="placesToggle" class="toggleButton">Places & Boba</button>
+			<button id="storiesToggle" class="toggleButton">Stories</button>
+		</div>
+
+
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+
+	      <span class="close">&times;</span>
+		  <!-- Modal content -->
+		  <div class="modal-content">
+		    <div class="content-container">
+		    	
+		    	<!-- Example Format for Slide Show 
+	            <div class="modal-media">
+	            	<img class="mySlides" src="images/100days/places/place1.1.JPG">
+					<img class="mySlides" src="images/100days/problems/place1.2.JPG">
+					
+
+					<button class="w3-button w3-display-left">&#10094;</button>
+					<button class="w3-button w3-display-right">&#10095;</button>
+	            </div>
+
+				<div class="modal-info-container"> 
+					<h1 class="modalTitle">Improving the line waiting and restaurant experience</h1>
+					<p class="modalDescription">Waiting in line and for your food can be incredibly toturous. Imagine standing in line for 30+ minutes to order your food and then another 30+ minutes to get your meal.</p>
+					<p class="modalDescription">In very busy and popular restaurants this can create very negative experiences for many customers. Customers would often ask the staff how much longer until they receive their food and this often result to false estimates or even worse - missed meals.</p>
+					<p class="modalDescription">How can we improve transparency in a restaurant experience?</p>
+				</div>
+
+			-->
+
+
+
+		    </div>
+		  </div>
+
+		</div>
+
+
+		<!-- Title and Description box -->
+		<div id="Title100">
+			<h1>100 Days of Design</h1>
+			<p>Inspired by Peter Smart's <a href="http://50problems50days.com/#type=narrative">50 Problems in 50 Days</a></p>
+			<p>This is a personal challenge to identify and provide a solution to at least one design problem a day. It will also be a collection of interesting places, designs, boba, thoughtless acts, and stories that I encounter.</p>
+
+			<button id="learnmore">Learn More</button>
+		</div>
+
+		<div id="map">
+			
+		</div>
+
+		
+	</div>
+
+	<script type="text/javascript"></script>
+</body>
+</html>
