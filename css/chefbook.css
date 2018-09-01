@@ -8,3 +8,11 @@
 .landing-img {
 	background-image: url('../images/chefbook/chefbookbackground2.png');
 }
+
+.prototype {
+	border: 1px solid;
+}
+
+video {
+	width: 90%;
+}

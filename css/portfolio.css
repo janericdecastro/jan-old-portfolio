@@ -120,10 +120,14 @@
 
 }
 
+#workday-image {
+  background-image: url('../images/workday/workday.png');
+}
+
 
 /* Footer */
 footer {
-  margin-top: 1400px;
+  margin-top: 1650px;
 }
 
 
