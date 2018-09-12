@@ -1,0 +1,200 @@
+.project-container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-bottom: 30px;
+  	margin-top: 80px;
+}
+
+.project-item {
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+}
+
+.project-img{
+  width: 100%;
+  height: 450px;
+}
+
+.project-block-title {
+	font-size: 30px;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.project-details {
+	font-weight: 200;
+}
+
+/* Project Images */
+
+#liftassist-image {
+  background-image: url('../images/liftassist/liftassistbanner.png');
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+}
+
+#chefbook-image {
+  background-image: url('../images/chefbook/chefbookthumbnail2.png');
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+}
+
+#librarysign-image {
+  background-image: url('../images/librarysign/librarysigns.png');
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+}
+
+#foodie-image {
+  background-image: url('../images/foodie/foodie.png');
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+}
+
+#snores-image {
+  background-image: url('../images/liftassist/final-prototype.png');
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+}
+
+
+#kolibri-image {
+  background-image: url('../images/kolibri/kolibribanner2.png');
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+}
+
+#spacemakers-image {
+  background-image: url('../images/spacemakers/spacemakersbanner.png');
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+}
+
+#workday-image {
+  background-image: url('../images/workday/workdaybanner2.png');
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+}
+
+/* Project title and description */
+
+#liftassist-image .project-info {
+	padding-left: 900px;
+	padding-top: 100px;
+}
+
+#chefbook-image .project-info {
+	padding-left: 150px;
+	padding-top: 100px;
+}
+
+#chefbook-image p {
+	color: white;
+}
+
+#librarysign-image .project-info {
+	position: ;
+	padding-left: 900px;
+	padding-top: 100px;
+}
+
+#librarysign-image p {
+	color: white;
+}
+
+#kolibri-image .project-info {
+	position: ;
+	padding-left: 150px;
+	padding-top: 100px;
+}
+
+#foodie-image .project-info {
+  	position: ;
+	padding-left: 900px;
+	padding-top: 100px;
+}
+
+#spacemakers-image .project-info {
+	position: ;
+	padding-left: 150px;
+	padding-top: 100px;
+}
+
+#spacemakers-image p {
+	color: white;
+}
+
+#workday-image .project-info {
+	position: ;
+	padding-left: 900px;
+	padding-top: 100px;
+}
+
+#workday-image p {
+	color: white;
+}
+
+/* HOVERS */
+
+/*
+#liftassist-image:hover {
+	background-size: 1600px;
+	transition: 0.3s;
+}
+*/
+
+#liftassist-image:hover {
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+
+#chefbook-image:hover {
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+
+
+#librarysign-image:hover {
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+
+#kolibri-image:hover {
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+
+#foodie-image:hover {
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+
+#spacemakers-image:hover {
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+
+#workday-image:hover {
+	transform: scale(1.1);
+	transition: 0.3s;
+}
+
+
+
+
+
+footer {
+	margin-top: 200px;
+}
+
+
