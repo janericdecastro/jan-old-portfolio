@@ -172,11 +172,11 @@ footer {
 }
 
 #middle-footer {
-	width: 35%;
+	width: 25%;
 }
 
 #right-footer {
-	width: 25%;
+	width: 35%;
 }
 
 #right-footer p {
@@ -211,6 +211,7 @@ footer {
 	border: none;
 	cursor: pointer;
 	font-size: 14px;
+	background-color: white;
 }
 
 .project-title {
