@@ -57,4 +57,10 @@
 	#right-footer {
 		display: none;
 	}
+
+	.content-container {
+		width: 90%;
+	}
+
+
 }
