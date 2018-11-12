@@ -5,7 +5,7 @@
 }
 
 footer {
-	margin-top: 650px;
+	margin-top: 200px;
 }
 
 .bio {
@@ -21,12 +21,13 @@ footer {
 }
 
 .profile_pic {
-	width: 80%;
+	width: 100%;
 }
 
 .bioinfo {
 	width: 50%;
 	margin-top: 30px;
+	padding-left: 30px;
 }
 
 .info {
