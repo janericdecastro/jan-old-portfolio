@@ -1,0 +1,66 @@
+
+
+/**** PORTFOLIO RESPONSIVE CSS ****/
+
+@media only screen and (max-width: 900px) {
+	.project-left {
+		order: 2;
+		width: 100%;
+		margin-top: 0px;
+		border: 1px solid #adadad;
+		border-top: none;
+		margin-left: 5%;
+		margin-right: 5%;
+		height: 300px;
+		text-align: center;
+	}
+
+	.project-left h1 {
+		font-size: 5em;
+	}
+
+	.project-left p {
+		width: 100%;
+	}
+
+    .project-right {
+        width: 100%;
+        order: 1;
+    }
+
+    #left-footer {
+    	width: 100%;
+    }
+
+    #middle-footer {
+    	width: 0%;
+    }
+
+    #right-footer {
+    	display: none;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+	.project-right {
+		height: 300px;
+	}
+
+	#left-footer {
+		width: 100%;
+	}
+
+	#middle-footer {
+		width: 0%;
+	}
+
+	#right-footer {
+		display: none;
+	}
+
+	.content-container {
+		width: 90%;
+	}
+
+
+}

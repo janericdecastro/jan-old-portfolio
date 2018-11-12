@@ -1,0 +1,147 @@
+#portfolio {
+  color: #FF5E55;
+  font-weight: 600;
+}
+
+.project-container {
+	width: 100%;
+	margin-bottom: 30px;
+  	margin-top: 80px;
+}
+
+.project-item {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 30px;
+}
+
+.project-left {
+	width: 40%;
+	height: 430px;
+	border: 1px solid #adadad;
+	border-right: none;
+	margin-top: 15px;
+}
+
+.project-information {
+	padding: 30px;
+	padding-top: 5px;
+}
+
+@font-face {
+    font-family: projectFontNum;
+    src: url(../fonts/Knockout-HTF69-FullLiteweight.otf);
+}
+
+@font-face {
+    font-family: projectFont;
+    src: url(../fonts/Knockout-HTF51-Middleweight.otf);
+}
+
+.project-left h1 {
+	font-family: projectFontNum;
+	font-size: 12em;
+	color: #E2E2E2;
+}
+
+.project-left h3 {
+	font-family: projectFont;
+	font-size: 2.3em;
+}
+
+.project-left p {
+	font-size: 1.3em;
+	padding-top: 15px;
+	width: 60%;
+}
+
+.project-button {
+	padding: 12px;
+	width: 100%;
+	margin-top: 30px;
+	background-color: white;
+	border: 1px solid #adadad;
+	font-family: projectFont;
+	transition: 0.3s;
+}
+
+.project-button:hover {
+	background-color: #FF5E55;
+	border-color: #FF5E55;;
+	color: white;
+	transition: 0.3s;
+}
+
+.project-right {
+	width: 60%;
+	height: 460px;
+	background-image: url('../images/liftassist/final-prototype.png');
+  	background-size: cover;
+  	background-position: center;
+}
+
+
+/* Project Images */
+
+#liftassist-image {
+  background-image: url('../images/liftassist/final-prototype.png');
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+}
+
+#chefbook-image {
+  background-image: url('../images/chefbook/chefbookthumbnail.png');
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+}
+
+#librarysign-image {
+  background-image: url('../images/librarysign/signthumbnail.png');
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+}
+
+#foodie-image {
+  background-image: url('../images/foodie/foodiethumbnail2.png');
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+}
+
+#snores-image {
+  background-image: url('../images/liftassist/final-prototype.png');
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+}
+
+
+#kolibri-image {
+  background-image: url('../images/kolibri/kolibribanner3.png');
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+}
+
+#spacemakers-image {
+  background-image: url('../images/spacemakers/spacemakers.png');
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+}
+
+#workday-image {
+  background-image: url('../images/workday/workday.png');
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s;
+}
+
+
+footer {
+	margin-top: 200px;
+}
